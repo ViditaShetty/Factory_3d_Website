@@ -279,6 +279,16 @@ section {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 2rem;
+  background-color: rgb(13 16 59);
+  color: white;
+  margin-top: -6%;
+  padding-bottom: 8%;
+}
+
+video{
+  /*added this***********/
+  
+  border-radius: 73% 40%;
 }
 
 .home .image img {
@@ -375,6 +385,10 @@ section.services {
   align-items: flex-start;
   padding: 3rem 2rem;
   border-radius: 0.5rem;
+  
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px #4193cbad;
 }
 
 .services .bottom .box:hover {
@@ -433,6 +447,9 @@ section.about {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 5rem;
+  background-color: rgb(13 16 59);
+  /* margin: 10%; */
+  color: white;
 }
 
 .about .image img {
@@ -480,7 +497,7 @@ section.about {
 section.app {
   margin: 10rem 9%;
   border-radius: 0.5rem;
-  background-color: var(--yellow);
+  background-color: rgba(19, 76, 210, 0.452);
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
