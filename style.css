@@ -53,8 +53,8 @@
   .serviceHead{ 
     font-size: 1.5rem;
     padding: 0.5%;
-    background-color: rgb(247, 128, 148);
-    color:rgb(245, 243, 243);
+    background-color: rgb(50, 59, 175);
+    color:rgba(60, 33, 157, 0.651);
     margin-left: 45%;
     margin-bottom:3%;
     font-family: "Ubuntu", sans-serif;
@@ -84,7 +84,7 @@
 
     justify-content: center;
     justify-items: center;
-    background-color: antiquewhite;
+    background-color: rgba(60, 33, 157, 0.651);;
 
     box-shadow: 6.8px 3.2px 7.2px grey;
 
@@ -107,7 +107,7 @@
   img {
     max-height: 138px;
     overflow: hidden;
-    box-shadow: bisque;
+    box-shadow: rgba(60, 33, 157, 0.651);
   }
 
 
@@ -117,11 +117,11 @@
 :root {
   --black: #1f1f1f;
   --white: #fff;
-  --yellow: rgb(247 128 148);
-  --deep-yellow: rgb(247 128 148);
-  --bg-yellow: #fffaf1; 
-  --btn-yellow: #fff4d4;
-  --footer-yellow: #fff9e9;
+  --yellow: rgb(50, 59, 175);;
+  --deep-yellow: rgb(25, 30, 94);;
+  --bg-yellow: rgba(19, 76, 210, 0.452);; 
+  --btn-yellow: rgba(60, 33, 157, 0.31);
+  --footer-yellow: rgba(60, 33, 157, 0.31);
   --grey: #737373;
   --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   --transition: all 0.2s linear;
