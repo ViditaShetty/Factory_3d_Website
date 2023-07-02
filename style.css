@@ -11,7 +11,7 @@
   
   canvas {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     object-fit: cover;
   }
   
@@ -537,6 +537,9 @@ section.app .content .links img {
 }
 
 @media (max-width: 768px) {
+  video{
+    display: none;
+  }
   section.app .image {
     display: none;
   }
