@@ -40,7 +40,7 @@ gsap.fromTo(
       scrub: 1,
 
       start: "30%",
-      end: "40%",
+      end: "35%",
     },
     onComplete: () => {
       gsap.to(".ball-text", { opacity: 0 });

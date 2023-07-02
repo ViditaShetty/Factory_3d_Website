@@ -11,7 +11,7 @@
   
   canvas {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
   }
   
@@ -30,7 +30,7 @@
     font-size: 5rem;
     right: 20%;
     bottom: 40%;
-    transform: translate(-20%, -40%);
+    transform: translate(-20%, -80%);
   }
   
   @media screen and (max-width: 1024px) {
@@ -182,6 +182,9 @@ section {
   justify-content: space-between;
   box-shadow: var(--box-shadow);
   z-index: 1000;
+  
+  background-color: transparent;
+  color: black;
 }
 
 .logo {
@@ -279,16 +282,14 @@ section {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 2rem;
-  background-color: rgb(13 16 59);
-  color: white;
   margin-top: -6%;
   padding-bottom: 8%;
 }
 
 video{
   /*added this***********/
-  
   border-radius: 73% 40%;
+  margin-left: 10%;
 }
 
 .home .image img {
@@ -352,7 +353,6 @@ video{
 
 /* Services */
 section.services {
-  background-color: var(--bg-yellow);
   padding: 5rem 9%;
 }
 
@@ -388,7 +388,6 @@ section.services {
   
   background-color: white;
   border-radius: 10%;
-  box-shadow: 10px 10px 10px #4193cbad;
 }
 
 .services .bottom .box:hover {
@@ -447,9 +446,6 @@ section.about {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 5rem;
-  background-color: rgb(13 16 59);
-  /* margin: 10%; */
-  color: white;
 }
 
 .about .image img {
@@ -586,8 +582,7 @@ section.app .content .links img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem 0;
-  background-color: var(--deep-yellow);
+  padding: 0.5rem 0;
 }
 
 .footer .top .content p {
