@@ -39,7 +39,7 @@ gsap.fromTo(
     scrollTrigger: {
       scrub: 1,
 
-      start: "30%",
+      start: "-3%",
       end: "35%",
     },
     onComplete: () => {
