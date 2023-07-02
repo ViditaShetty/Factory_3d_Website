@@ -184,7 +184,8 @@ section {
   z-index: 1000;
   
   background-color: transparent;
-  color: black;
+  color: white;
+
 }
 
 .logo {
@@ -498,7 +499,7 @@ section.app {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   position: relative;
-  padding: 22rem 0;
+  padding: 9rem 0;
 }
 
 section.app .image {
